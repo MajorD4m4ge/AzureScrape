@@ -74,7 +74,7 @@ func main() {
 		keywordList = []string{keyword}
 	}
 
-	resp, err := http.Get("https://ip-ranges.amazonaws.com/ip-ranges.json")
+	resp, err := http.Get("https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20240422.json")
 	if err != nil {
 		log.Println("Error fetching IP ranges:", err)
 		return
